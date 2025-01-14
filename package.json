@@ -1,6 +1,6 @@
 {
   "name": "@map-colonies/infra-copilot-instructions",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A package that provides instructions for github copilot for the infra team",
   "main": "./dist/index.js",
   "exports": {
