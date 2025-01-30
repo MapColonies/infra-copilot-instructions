@@ -9,3 +9,4 @@
 - Prefer interfaces over classes in typescript.
 - ensure file ends with a newline.
 - comments should be annotated with typedoc style tags.
+- the npm organization for `MapColonies` is called `map-colonies`.
