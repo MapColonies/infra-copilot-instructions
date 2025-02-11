@@ -35,8 +35,8 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-conventional": "^19.6.0",
     "@map-colonies/prettier-config": "^0.0.1",
+    "@map-colonies/commitlint-config": "^1.0.0",
     "commitlint": "^19.6.1",
     "husky": "^9.1.7",
     "prettier": "^3.4.2",
