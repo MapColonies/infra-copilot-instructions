@@ -4,13 +4,15 @@ updates:
   # deps
   - package-ecosystem: npm
     target-branch: 'master'
+    reviewers:
+      - '@MapColonies/infra'
     schedule:
       interval: weekly
+    labels:
+      - 'infra'
     allow:
       - dependency-type: production
     directory: /
-    labels:
-      - 'infra'
     commit-message:
       prefix: 'deps'
     groups:
@@ -30,10 +32,14 @@ updates:
     allow:
       - dependency-type: development
     directory: /
+    commit-message:
+      prefix: 'devdeps'
+    ignore:
+      - dependency-name: '@types/node'
     labels:
       - 'infra'
-    commit-message:
-      prefix: 'deps'
+    reviewers:
+      - '@MapColonies/infra'
     groups:
       map-colonies:
         patterns:
@@ -47,13 +53,14 @@ updates:
       dev-patch:
         update-types:
           - patch
+          - minor
 
   # github deps
   - package-ecosystem: github-actions
     schedule:
       interval: weekly
+    labels:
+      - 'infra'
     commit-message:
       prefix: 'ci'
     directory: '/'
-    labels:
-      - 'infra'

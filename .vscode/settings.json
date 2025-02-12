@@ -3,5 +3,15 @@
     {
       "file": "instructions/commit.md"
     }
+  ],
+  "github.copilot.chat.testGeneration.instructions": [
+    {
+      "file": "instructions/test.md"
+    }
+  ],
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "file": "instructions/code.md"
+    }
   ]
 }
