@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/MapColonies/infra-copilot-instructions/compare/v1.1.0...v1.2.0) (2025-07-03)
+
+
+### Features
+
+* new code instructions ([db33359](https://github.com/MapColonies/infra-copilot-instructions/commit/db33359074a32bb7bdec9a430a7d73240ff9facf))
+
 ## [1.1.0](https://github.com/MapColonies/infra-copilot-instructions/compare/v1.0.0...v1.1.0) (2025-03-11)
 
 
